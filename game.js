@@ -16,6 +16,9 @@ const game = (player1 , player2)=>{
     }
 
     const play = (player , x , y)=>{
+        if(_board[x][y] != undefined){
+            return -1;
+        }
         if(player.getId() == _player1.getId()){
             _board[x][y] = 'X';
         }else{
