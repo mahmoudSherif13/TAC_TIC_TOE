@@ -1,0 +1,38 @@
+body{
+    background: cornflowerblue;
+}
+#name1{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+#name2{
+    position: absolute;
+    left : 66%;
+    top: 25%;
+}
+#btn{
+    position: absolute;
+    left:  50%;
+    top: 25%;
+}
+#gameBox{
+    display: table;
+    position: absolute;
+    width: 33%;
+    height: 45%;
+    left: 35%;
+    top: 33%;
+    background: #05C9C9;
+    border-radius: 33px;
+    visibility: hidden;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    border: 2px solid black;
+    text-align: center;
+    font-size: small;
+}
