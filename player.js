@@ -10,7 +10,7 @@ const player = (name)=>{
     let _id = player.ids;
 
     return{
-        getname:()=>_name,
+        getName:()=>_name,
         getId:()=>_id
     };
 }
